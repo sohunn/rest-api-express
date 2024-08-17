@@ -1,0 +1,17 @@
+{
+  "name": "rest-api-express",
+  "version": "1.0.0",
+  "description": "A simple project teaching the concepts of REST APIs using Express JS.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Sohan Shashikumar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
