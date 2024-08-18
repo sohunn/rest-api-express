@@ -5,6 +5,10 @@ const port = 3000;
 const app = express();
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.status(200).send("Congrats, you just consumed data from a REST API!");
+});
+
 app.post("/movies/create", (req, res) => {
   const { name, year, genres, boxOfficeHit } = req.body;
 
